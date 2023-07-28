@@ -25,7 +25,6 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayThyme \
     SettingsOverlayThyme \
     SettingsProviderOverlayThyme \
-    SystemUIOverlayLynnrin \
     SystemUIOverlayThyme \
     TelephonyOverlayThyme
 
