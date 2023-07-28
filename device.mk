@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlayThyme \
     FrameworkResOverlayThyme \
     SettingsOverlayThyme \
+    SettingsProviderOverlayThyme \
     SystemUIOverlayLynnrin \
     SystemUIOverlayThyme \
     TelephonyOverlayThyme
