@@ -47,4 +47,7 @@
 
     <!-- Define battery charge cycle node -->
     <string name="config_battery_charge_cycle">/sys/class/power_supply/bms/cycle_count</string>
+
+    <!-- Whether to show a preference item for mobile plan -->
+    <bool name="config_show_mobile_plan">false</bool>
 </resources>
