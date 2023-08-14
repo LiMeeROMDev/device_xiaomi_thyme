@@ -8,5 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_thyme.mk
 
 COMMON_LUNCH_CHOICES := \
+    aosp_thyme-user \
     aosp_thyme-userdebug \
     aosp_thyme-eng
