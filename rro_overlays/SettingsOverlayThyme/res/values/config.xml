@@ -16,38 +16,10 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Device specific doze package -->
-    <string name="config_customDozePackage" translatable="false">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
-
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
 
-    <!-- Defines the location of the fingerprint sensor on the device
-         0 = back
-         1 = front
-         2 = left side
-         3 = right side
-    -->
-    <integer name="config_fingerprintSensorLocation">1</integer>
-
-    <!-- Whether or not the device is capable of multiple levels of vibration intensity.
-         Note that this is different from whether it can control the vibration amplitude as some
-         devices will be able to vary their amplitude but do not possess enough dynamic range to
-         have distinct intensity levels -->
-    <bool name="config_vibration_supports_multiple_intensities">true</bool>
-
-    <!-- Whether to show battery health -->
-    <bool name="config_show_battery_health">true</bool>
-
-    <!-- Define battery design capacity node -->
-    <string name="config_battery_capacity_design">/sys/class/power_supply/bms/charge_full_design</string>
-
-    <!-- Define battery now capacity node -->
-    <string name="config_battery_capacity_now">/sys/class/power_supply/bms/charge_full</string>
-
-    <!-- Define battery charge cycle node -->
-    <string name="config_battery_charge_cycle">/sys/class/power_supply/bms/cycle_count</string>
-
     <!-- Whether to show a preference item for mobile plan -->
     <bool name="config_show_mobile_plan">false</bool>
+
 </resources>
