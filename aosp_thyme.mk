@@ -18,6 +18,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
+CUSTOM_BUILD_FLAVOR := missi_phoneext4_cn-user
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_thyme
 PRODUCT_DEVICE := thyme
